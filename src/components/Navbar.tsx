@@ -100,7 +100,6 @@ const Navbar = ({ settings }: NavbarProps) => {
                         ? "page"
                         : undefined
                     }
-                    className="text-red-600"
                   >
                     {item.label}
                   </ButtonLink>

@@ -1,4 +1,11 @@
 {
   "cSpell.ignoreWords": ["Prismic"],
-  "cSpell.words": ["Bento", "clsx", "codespan", "prismicio", "slicemachine"]
+  "cSpell.words": [
+    "Bento",
+    "clsx",
+    "codespan",
+    "gsap",
+    "prismicio",
+    "slicemachine"
+  ]
 }
