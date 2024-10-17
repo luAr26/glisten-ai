@@ -13,6 +13,14 @@ export default function StarGrid() {
 
   useGSAP(
     () => {
+      if (prefersReducedMotion) {
+        gsap.set(container.current, { opacity: 1 });
+        gsap.set(".star-grid-item", {
+          opacity: 0.2,
+          scale: 1,
+        });
+        return;
+      }
       gsap.set(".star-grid-item", {
         opacity: 1,
         transformOrigin: "center",
